@@ -1,0 +1,96 @@
+body{
+  background-color: #F2F2F2;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: #4A90E2;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  padding: 0 42px;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .account-section{
+  display: flex;
+  align-items: center;
+}
+
+header .account-section span{
+  margin-right: 8px;
+}
+
+.postlist{ 
+  max-width: 700px;
+  margin: auto;
+}
+
+.post-item{
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,0.13) 0 0 10px 0;
+  margin-top: 20px;
+}
+
+.post-item__account-information {
+  display: flex;
+  align-items: center;
+}
+
+.post-item__account-infomation__name-date{
+  margin-left: 10px;
+}
+
+.post-item__account-infomation__name-date__name{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4A4A4A;
+  display: block;
+}
+.post-item__account-infomation__name-date__date{
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  color: #9A9A9A;
+  display: block;
+}
+
+.post-item p{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3E3E3E;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.post-item__comment {
+  display: flex;
+  align-items: flex-start;
+}
+.post-item__comment img {
+  border-radius: 50%;
+}
+
+.post-item__comment__name-content{
+  margin-left: 10px;
+  background-color: #EEEEEE;
+  flex: 1 1 100%;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-family: Helvetica;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.post-item__comment__name-content .post-item__comment__name-content__name{
+  font-weight: bold;
+}
+
+.post-item__comment + .post-item__comment{
+  margin-top: 10px;
+}
